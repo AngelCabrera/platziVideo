@@ -1,0 +1,15 @@
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    height: 100%;
+    background: var(--sidebar-color);
+    color: var(--white);
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.sidebar {
+	/* autoprefixer:off */
+    grid-gap: 10px;
+}

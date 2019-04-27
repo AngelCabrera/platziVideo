@@ -1,0 +1,76 @@
+/*Scrollbar*/
+
+/*Primary list*/
+.primary-list::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+}
+.primary-list::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+.primary-list::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.primary.list::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+.primary-list::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+.primary-list::-webkit-scrollbar-track:hover,
+.primary-list::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+/*Playlist*/
+.playlist::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+}
+.playlist::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+.playlist::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.primary.list::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+.playlist::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+.playlist::-webkit-scrollbar-track:hover,
+.playlist::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+/*primaryPlaylist-list*/
+.primaryPlaylist-list::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+}
+.primaryPlaylist-list::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+.primaryPlaylist-list::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.primary.list::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+.primaryPlaylist-list::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+.primaryPlaylist-list::-webkit-scrollbar-track:hover,
+.primaryPlaylist-list::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}

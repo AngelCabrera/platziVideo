@@ -1,0 +1,28 @@
+.home-primary { /*Only Layout Preferences*/
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "search user"
+                         "list list";
+    overflow: auto;
+    padding: 0 2px 0 10px;
+    background: var(--white);
+    
+    @media (--extra-small) {
+        grid-template-areas: "user user" "list list"
+    }
+
+    & .primary-search {
+        grid-area: search;
+        @media (--extra-small) {    
+            display: none;
+        }
+    }
+    & .primary-user {
+        grid-area: user;
+    }
+    & .primary-list {
+        grid-area:list;
+        overflow:auto;
+    }
+}

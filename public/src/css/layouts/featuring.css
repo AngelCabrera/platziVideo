@@ -1,0 +1,8 @@
+.featuring {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: var(--white);
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: linear-gradient(to left, #f80759, #bc4e9c);
+}

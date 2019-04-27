@@ -1,0 +1,26 @@
+.main-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 1fr 120px;
+    grid-template-areas: "sidebar primary"
+                         "sidebar featuring";
+    @media (--small) {
+        grid-template-areas: "primary primary" "featuring featuring"
+    }
+    & .home-sidebar {
+        grid-area: sidebar;
+        @media (--small) {
+            display: none;
+        }
+    }
+    & .home-primary {
+        grid-area: primary;
+    }
+    & .home-featuring {
+        grid-area: featuring;
+    }
+}
+.lol{
+    
+}
