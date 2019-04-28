@@ -2,9 +2,9 @@ module.exports = {
 	plugins: [
 		require('postcss-import')({
 			plugins: [
+				require('stylelint'),
 			]
 		}),
-		require('stylelint'),
 		require('postcss-font-magician')({
 			variants: {
 				'Lato': {
@@ -22,5 +22,6 @@ module.exports = {
 		}),
 		require('postcss-apply'),
 		require('postcss-color-hwb'),
+		require('css-mqpacker'),
 	]
 }

@@ -5,16 +5,17 @@
   "dependencies": {
     "autoprefixer": "^9.5.1",
     "express": "^4.16.4",
+    "nodemon": "^1.18.11",
     "postcss-apply": "^0.12.0",
     "postcss-cli": "^6.1.2",
     "postcss-color-hwb": "^3.0.0",
-    "postcss-preset-env": "^6.6.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.11",
     "postcss-font-magician": "^2.2.1",
     "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.6.0",
     "stylelint": "^10.0.1"
+  },
+  "devDependencies": {
+    "css-mqpacker": "^7.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
