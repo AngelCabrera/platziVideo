@@ -19,9 +19,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "AngelCabrera",
   "license": "ISC",
-  "description": ""
+  "description": "Platzi Video built with postcss"
 }
