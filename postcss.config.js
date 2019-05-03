@@ -23,5 +23,6 @@ module.exports = {
 		require('postcss-apply'),
 		require('postcss-color-hwb'),
 		require('css-mqpacker'),
+		require('cssnano'),
 	]
 }
